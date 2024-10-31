@@ -5,7 +5,6 @@ import org.testng.asserts.SoftAssert;
 public class ShoppingCartTest extends BaseUIState {
     private static final int BOOK_PRICE = 10;
 
-
     public void getValues() {
         discountPercent = driver.
                 findElement(By.xpath("//table/tbody/tr[6]/td/table/tbody/tr[2]/td[5]/p/b")).getText();

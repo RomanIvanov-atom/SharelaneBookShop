@@ -10,7 +10,6 @@ public class BaseUIState {
     protected String discount$;
     protected String total;
 
-
     @BeforeMethod
     public void setUp() {
         driver = new ChromeDriver();
